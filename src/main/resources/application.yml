@@ -1,0 +1,23 @@
+spring:
+  config.activate.on-profile: default
+  datasource:
+    url: jdbc:mysql://localhost:3306/auto_readme?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: password!23
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 5
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+
+openai:
+  api-key: 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
+
+chatgpt:
+  api-key: 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

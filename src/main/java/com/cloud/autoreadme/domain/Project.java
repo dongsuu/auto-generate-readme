@@ -16,13 +16,16 @@ import javax.persistence.Id;
 public class Project {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    private String githubLink;
     private String name;
     private String projectInfo;
     private String techInfo;
     private String memberInfo;
 
     @Builder
-    public Project(String name, String projectInfo, String techInfo, String memberInfo){
+    public Project(String githubLink, String name, String projectInfo, String techInfo, String memberInfo){
+        this.githubLink = githubLink;
         this.name = name;
         this.projectInfo = projectInfo;
         this.techInfo = techInfo;
