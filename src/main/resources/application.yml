@@ -17,7 +17,7 @@ spring:
         format_sql: true
 
 openai:
-  api-key: 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
+  api-key: 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
 
 chatgpt:
-  api-key: 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
+  api-key: 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
