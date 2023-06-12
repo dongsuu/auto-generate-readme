@@ -7,7 +7,7 @@ Auto-Generate-Read.md는 자동으로 README.md 파일을 생성해주는 서비
 - Java Spring
 - MySql
 - AWS
-- Open AI API\
+- Open AI API
 
 ## Members
 
